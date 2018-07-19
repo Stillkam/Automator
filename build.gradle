@@ -1,0 +1,26 @@
+plugins {
+    id 'java'
+}
+
+group 'com.still'
+version '1.0-SNAPSHOT'
+
+sourceCompatibility = 1.8
+
+repositories {
+    mavenCentral()
+}
+
+dependencies {
+    testCompile group: 'junit', name: 'junit', version: '4.12'
+    // https://mvnrepository.com/artifact/commons-cli/commons-cli
+    compile group: 'commons-cli', name: 'commons-cli', version: '1.4'
+    compile group: 'com.typesafe.akka', name: 'akka-actor_2.12', version: '2.5.14'
+
+    testCompile group: 'com.typesafe.akka', name: 'akka-testkit_2.12', version: '2.5.14'
+
+//    compile group: 'dom4j', name: 'dom4j', version: '1.6.1'
+
+    compile 'io.appium:java-client:3.4.0'
+
+}

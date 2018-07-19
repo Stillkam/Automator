@@ -1,0 +1,73 @@
+2018-07-19 11:08:15 [INFO] Start testing apk: /Users/Still/Desktop/apk/weixin_1321.apk
+2018-07-19 11:08:15 [INFO] Package name: com.tencent.mm
+2018-07-19 11:08:28 [INFO] Apk installed!
+2018-07-19 11:08:31 [INFO] After 3 seconds
+2018-07-19 11:08:32 [INFO] Apk started!
+2018-07-19 11:08:35 [INFO] After 3 seconds
+2018-07-19 11:08:37 [INFO] currentPackage: com.tencent.mm
+2018-07-19 11:08:37 [INFO] currentActivity: 
+2018-07-19 11:08:49 [INFO] AppiumAgent started
+2018-07-19 11:08:49 [INFO] Traversal started
+2018-07-19 11:08:49 [INFO] Traversal start: 1 steps
+2018-07-19 11:08:49 [INFO] Steps:1
+2018-07-19 11:08:49 [INFO] Permissions Allowed!
+2018-07-19 11:08:49 [INFO] Try Login
+2018-07-19 11:08:49 [INFO] Login Finished
+2018-07-19 11:08:51 [INFO] Current at .ui.LauncherUI_d10310e8798d5c8ae932cbb853bf79ac
+2018-07-19 11:08:51 [INFO] Current at node1
+2018-07-19 11:08:51 [INFO] Current traversal depth is -1
+2018-07-19 11:08:55 [INFO] pageSourceMap add currentView.ui.LauncherUI_d10310e8798d5c8ae932cbb853bf79ac
+2018-07-19 11:08:56 [INFO] 3 clickable elements found on view
+2018-07-19 11:08:56 [INFO] Click Tag:android.widget.Button;Text:登录;resourceId:;contentDesc:登录;
+2018-07-19 11:09:00 [INFO] Jumped to view .plugin.account.ui.MobileInputUI_ecff26ab335497730de1bf5e72dbc0d8
+2018-07-19 11:09:01 [INFO] Steps:0
+2018-07-19 11:09:01 [INFO] Back
+2018-07-19 11:09:02 [INFO] View after back: .ui.LauncherUI_d10310e8798d5c8ae932cbb853bf79ac
+2018-07-19 11:09:02 [INFO] Click Tag:android.widget.Button;Text:注册;resourceId:;contentDesc:注册;
+2018-07-19 11:09:06 [INFO] Jumped to view .plugin.account.ui.RegByMobileRegAIOUI_9c48a85149457f3c0b83be351cba5849
+2018-07-19 11:09:07 [INFO] Steps:0
+2018-07-19 11:09:07 [INFO] Back
+2018-07-19 11:09:09 [INFO] View after back: .ui.LauncherUI_d10310e8798d5c8ae932cbb853bf79ac
+2018-07-19 11:09:09 [INFO] Click Tag:android.widget.TextView;Text:语言;resourceId:;contentDesc:语言;
+2018-07-19 11:09:13 [INFO] Jumped to view .plugin.setting.ui.setting.SettingsLanguageUI_f00b47388acdbd6753f8b47a1f9259c1
+2018-07-19 11:09:14 [INFO] Steps:0
+2018-07-19 11:09:14 [INFO] Back
+2018-07-19 11:09:15 [INFO] View after back: .ui.LauncherUI_d10310e8798d5c8ae932cbb853bf79ac
+2018-07-19 11:09:15 [INFO] Back
+2018-07-19 11:09:16 [INFO] Traversal stop: 1 steps
+2018-07-19 11:09:16 [INFO] Restart App
+2018-07-19 11:09:21 [INFO] Take screenShot on quit
+2018-07-19 11:09:21 [WARN] org.openqa.selenium.remote.SessionNotFoundException: A session is either terminated or not started (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 5 milliseconds
+Build info: version: '2.52.0', revision: '4c2593cfc3689a7fcd7be52549167e5ccc93ad28', time: '2016-02-11 11:22:43'
+System info: host: 'linxin.local', ip: '10.222.247.137', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.13.6', java.version: '1.8.0_121'
+Driver info: io.appium.java_client.android.AndroidDriver
+Capabilities [{app=/Users/Still/Desktop/apk/weixin_1321.apk, appPackage=com.tencent.mm, deviceScreenSize=1080x2160, networkConnectionEnabled=true, warnings={}, appWaitPackage=com.tencent.mm, appWaitActivity=com.tencent.mm.ui.LauncherUI, databaseEnabled=false, deviceName=a9240e7e, platform=LINUX, deviceUDID=a9240e7e, appActivity=com.tencent.mm.ui.LauncherUI, desired={app=/Users/Still/Desktop/apk/weixin_1321.apk, platformVersion=8.1.0, appWaitPackage=com.tencent.mm, appWaitActivity=, platformName=Android, deviceName=OnePlus 5T}, platformVersion=8.1.0, webStorageEnabled=false, locationContextEnabled=false, takesScreenshot=true, javascriptEnabled=true, deviceModel=ONEPLUS A5010, platformName=Android, deviceManufacturer=OnePlus}]
+Session ID: 57be4389-9e45-4027-8761-af4c789052ce
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.lang.reflect.Constructor.newInstance(Constructor.java:423)
+	at org.openqa.selenium.remote.ErrorHandler.createThrowable(ErrorHandler.java:206)
+	at org.openqa.selenium.remote.ErrorHandler.throwIfResponseFailed(ErrorHandler.java:164)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:678)
+	at io.appium.java_client.DefaultGenericMobileDriver.execute(DefaultGenericMobileDriver.java:42)
+	at io.appium.java_client.AppiumDriver.execute(AppiumDriver.java:207)
+	at org.openqa.selenium.remote.RemoteWebDriver.getScreenshotAs(RemoteWebDriver.java:335)
+	at com.still.Appium.AppiumAgent.takeScreenShot(AppiumAgent.java:49)
+	at com.still.AppTraversal.start(AppTraversal.java:553)
+	at com.still.TravelMonitor.onReceive(AppTraversal.java:634)
+	at akka.actor.UntypedAbstractActor$$anonfun$receive$1.applyOrElse(AbstractActor.scala:291)
+	at akka.actor.Actor.aroundReceive(Actor.scala:517)
+	at akka.actor.Actor.aroundReceive$(Actor.scala:515)
+	at akka.actor.AbstractActor.aroundReceive(AbstractActor.scala:180)
+	at akka.actor.ActorCell.receiveMessage(ActorCell.scala:588)
+	at akka.actor.ActorCell.invoke(ActorCell.scala:557)
+	at akka.dispatch.Mailbox.processMailbox(Mailbox.scala:258)
+	at akka.dispatch.Mailbox.run(Mailbox.scala:225)
+	at akka.dispatch.Mailbox.exec(Mailbox.scala:235)
+	at akka.dispatch.forkjoin.ForkJoinTask.doExec(ForkJoinTask.java:260)
+	at akka.dispatch.forkjoin.ForkJoinPool$WorkQueue.runTask(ForkJoinPool.java:1339)
+	at akka.dispatch.forkjoin.ForkJoinPool.runWorker(ForkJoinPool.java:1979)
+	at akka.dispatch.forkjoin.ForkJoinWorkerThread.run(ForkJoinWorkerThread.java:107)
+
